@@ -1,0 +1,26 @@
+.search_input-wrap {
+    height: 32px;
+    font-size: 13px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 3px;
+    border-color: #ebedf0;
+}
+
+.search_input {
+    border: none;
+    outline: none;
+}
+
+.search_input__icon-wrap {
+    padding: 0 8px;
+}
+
+.search_input::placeholder {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: misa_notosans-italic;
+}

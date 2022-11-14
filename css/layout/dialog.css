@@ -1,0 +1,260 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.4);
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog {
+    background-color: #FFF;
+    padding: 20px 32px;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+.dialog-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.dialog-title {
+    font-size: 24px;
+    color: #111;
+    font-weight: 700;
+}
+
+.input-wrap-header {
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.input-wrap-header label {
+    padding: 0 0 0 8px;
+}
+
+.dialog-performent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-wrap-2colum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dialog-main input {
+    width: 100%;
+    height: 32px;
+    border: 1px solid #babec5;
+}
+
+.dialog select {
+    width: 100%;
+    height: 32px;
+    border: 1px solid #babec5;
+    padding: 0 12px 0 10px;
+}
+
+.dialog select:focus {
+    outline: none;
+    border-color: #2ca01c;
+}
+
+.dialog-main label {
+    font-size: 12px;
+    font-weight: 700;
+    height: 20px;
+    display: block;
+}
+
+.dialog-main__left {
+    padding-right: 13px;
+}
+
+.dialog-main__right {
+    padding-left: 13px;
+}
+
+.radioBox {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.input-wrap {
+    padding-bottom: 12px;
+}
+
+.input-wrap__4-6 {
+    width: 40%;
+}
+
+.input-wrap__6-4 {
+    width: 60%;
+}
+
+.radioBox-child {
+    margin-right: 20px;
+}
+
+.radioBox-child div {
+    padding-left: 6px;
+}
+
+.date {
+    font-style: italic;
+}
+
+.start {
+    color: red;
+}
+
+.radioBox-child {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.input-left {
+    padding-right: 6px;
+}
+
+.input-right {
+
+}
+
+.dialog-more__title {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+}
+
+.dialog-salary,
+.dialog-bank,
+.dialog-contact {
+    height: 26px;
+    margin: 0 1px;
+    border-radius: 2px;
+    border: 1px solid #c9ccd2;
+    padding: 0 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dialog-more__title .active {
+    height: 31px;
+    background-color: #cce4f9;
+}
+
+.dialog-salary__main {
+    border: 1px solid #c9ccd2;
+    padding: 12px 10px;
+    padding-bottom: 52px;
+}
+
+.input-warp__top {
+    display: flex;
+}
+
+.input-wrap__bottom {
+    display: flex;
+}
+
+.salary {
+    width: 190px;
+    padding-right: 12px;
+}
+
+.salary input,
+.salary-coefficient input,
+.salary-insurance input,
+.dependent-person input {
+    text-align: end;
+}
+
+.salary-coefficient {
+    width: 125px;
+    padding-right: 12px;
+}
+
+.salary-insurance {
+    width: 257px;
+}
+
+.tax-code {
+    width: 191px;
+    padding-right: 12px;
+}
+
+.type-contract {
+    width: 394px;
+    padding-right: 12px;
+}
+
+.dependent-person {
+    width: 136px;
+}
+
+.dialog-line {
+    height: 1px;
+    width: 100%;
+    background-color: #e0e0e0;
+    margin-top: 32px;
+    margin-bottom: 22px;
+}
+
+.dialog-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.delete {
+    background-color: transparent;
+    border: 1px solid #3b3c3f;
+    color: #000;
+}
+
+button.save {
+    background-color: transparent;
+    border: 1px solid #8d9096;
+    color: #111;
+    margin-right: 9px;
+}
+
+button.save-new {
+    border: 1px solid #2ca01c;
+}
+
+.dialog-tool {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-help {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icon-close {
+    cursor: pointer;
+}

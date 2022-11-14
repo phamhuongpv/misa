@@ -1,0 +1,19 @@
+td {
+    border: 1px solid;
+    padding: 4px;
+    height: 44px;
+}
+
+th {
+    border: 1px solid;
+    padding: 4px;
+    text-align: left;
+    background-color: #CCC;
+    height: 34px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 100%;
+}

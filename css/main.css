@@ -1,0 +1,37 @@
+@import url(./layout/content.css);
+@import url(./layout/header.css);
+@import url(./layout/sidebar.css);
+@import url(./component/button.css);
+@import url(./component/icon.css);
+@import url(./component/table.css);
+@import url(./component/search.css);
+@import url(./layout/dialog.css);
+@import url(./component/input.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: misa_notosans-regular;
+    font-size: inherit;
+    font-size: 13px;
+}
+
+body {
+    background-color:#eceef1;
+}
+
+@font-face {
+    font-family: misa_notosans-regular;
+    src: url("../assets/fonts/notosans-regular.2cb88a13.woff2");
+}
+
+@font-face {
+    font-family: misa_notosans-bold;
+    src: url("../assets/fonts/notosans-bold.3ede5aff.woff2");
+}
+
+@font-face {
+    font-family: misa_notosans-italic;
+    src: url("../assets/fonts/notosans-italic.1c1aaac9.woff2");
+}
